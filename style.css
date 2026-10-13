@@ -1,0 +1,119 @@
+* {
+  background-color: #f1e3e3;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f1e3e3;
+  padding: 5px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  color: #769aae;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  margin-top: 40px;
+  background: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+P {
+  color: #666;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 20px 0;
+  background-color: transparent;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+article {
+  background-color: #f1e3e3;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+article:hover {
+  background-color: #eed3d3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+a {
+  background-color: transparent;
+  color: #666;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.recipe-link:hover {
+  background-color: #eed3d3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+nav a {
+  transition: color 0.3s ease;
+  color: #666;
+}
+
+nav a:hover {
+  color: #ed9191;
+}
+
+nav {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+nav a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd6a5;
+}
